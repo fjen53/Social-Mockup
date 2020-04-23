@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-header{
+    width: 1600px;
+    height: 1600px;
+    background-color: gray;
+}
+
+.header {
+    margin: auto;
+    width: 850px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    background-color: white;
+}
+
+.header-bg {
+    position: relative;
+    width: 850px;
+    height: 350px;
+    background-color: #4b4bf3ab;
+}
+
+.profile-pic {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.Bh1CV04JU8D6QpvSFLLiBwHaHa&pid=Api&P=0&w=300&h=300);
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 130px;
+    left: 10px;
+}
+
+.profile-info{
+    position:relative;
+    top: -40px;
+    left: 275px;
+    width: 60%;
+    height: 90px;
+
+}
+.h2{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.buttons {
+    position: relative;
+    top: -40px;
+    left: 600px;
+    display: inline;
+}
+
+.nav-bar{
+    position: relative;
+    width: 60%;
+    height: 30px;
+    top: 15px;
+    left: 200px;
+}
+
+.nav-bar li{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    display: inline;
+    text-align: center;
+}
+
+.nav-bar a {
+    color: black;
+    text-align: left;
+}
+
+.columns{
+    margin: 20px auto;
+    width: 850px;
+    top: 30px;
+    left: 30px;
+    position: relative;
+}
+
+.column1{
+    background-color: white;
+    height: 250px;
+    width: 328px;
+    float: left;
+    display: inline-block;
+}
+
+.column2{
+    background-color: white;
+    height: 250px;
+    width: 512px;
+    display: inline-block;
+    float: right;
+}
